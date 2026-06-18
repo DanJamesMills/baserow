@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "baserow": {
+      "command": "node",
+      "args": [
+        "./scripts/start-baserow-mcp.mjs"
+      ],
+      "cwd": ".",
+      "env_vars": [
+        "BASEROW_MCP_TOKEN",
+        "BASEROW_MCP_BASE_URL"
+      ],
+      "startup_timeout_sec": 30,
+      "tool_timeout_sec": 120
+    }
+  }
+}

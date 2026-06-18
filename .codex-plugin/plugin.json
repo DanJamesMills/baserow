@@ -1,0 +1,35 @@
+{
+  "name": "baserow",
+  "version": "0.1.0",
+  "description": "Connect Codex to a token-protected Baserow MCP server.",
+  "author": {
+    "name": "DNHQ"
+  },
+  "license": "UNLICENSED",
+  "keywords": [
+    "baserow",
+    "mcp",
+    "database",
+    "team"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Baserow",
+    "shortDescription": "Use your team's Baserow MCP server in Codex.",
+    "longDescription": "Baserow connects Codex to the DNHQ Baserow MCP endpoint using each teammate's own Baserow MCP token. The token is read from BASEROW_MCP_TOKEN or from a local .env file created by the setup script, so shared plugin files do not contain secrets.",
+    "developerName": "DNHQ",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use Baserow to inspect my team data",
+      "Find records in Baserow",
+      "Help me update Baserow safely"
+    ],
+    "brandColor": "#5190F5",
+    "composerIcon": "./assets/baserow-icon.svg"
+  }
+}

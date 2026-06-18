@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Baserow</title>
+  <desc id="desc">Baserow-style blue database icon for the Codex plugin.</desc>
+  <rect width="256" height="256" rx="56" fill="#F7FBFF"/>
+  <path d="M63 61c0-12 10-22 22-22h87c29 0 52 23 52 52 0 15-6 29-17 38 13 9 21 24 21 42 0 29-24 53-53 53H85c-12 0-22-10-22-22V61Z" fill="#5190F5"/>
+  <path d="M105 78h60c13 0 23 10 23 23s-10 23-23 23h-60V78Z" fill="#FFFFFF"/>
+  <path d="M105 151h65c13 0 23 10 23 23s-10 23-23 23h-65v-46Z" fill="#FFFFFF"/>
+  <path d="M63 61c0-12 10-22 22-22h20v185H85c-12 0-22-10-22-22V61Z" fill="#1F6FEB"/>
+</svg>
