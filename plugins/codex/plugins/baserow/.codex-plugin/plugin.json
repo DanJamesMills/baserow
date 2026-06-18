@@ -30,6 +30,7 @@
       "Help me update Baserow safely"
     ],
     "brandColor": "#5190F5",
-    "composerIcon": "./assets/baserow-icon.svg"
+    "composerIcon": "./assets/baserow-icon.svg",
+    "logo": "./assets/baserow-logo.png"
   }
 }
