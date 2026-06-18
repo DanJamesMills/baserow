@@ -1,0 +1,20 @@
+{
+  "name": "dnhq",
+  "interface": {
+    "displayName": "DNHQ"
+  },
+  "plugins": [
+    {
+      "name": "baserow",
+      "source": {
+        "source": "local",
+        "path": "./plugins/codex/plugins/baserow"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
